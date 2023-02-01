@@ -1,4 +1,4 @@
-p {
+.same {
     background-color: rgb(227, 172, 172);
     font-family: Verdana, Dejavu Sans, sans-serif;
 
@@ -9,3 +9,4 @@ p {
     font-family: Verdana, Dejavu Sans, sans-serif;
     font-size: 24px;
 }
+
