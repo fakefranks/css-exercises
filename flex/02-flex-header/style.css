@@ -1,8 +1,12 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
-  display: flex;
+  display: flex; /*first-put everything on top to the left*/
+  justify-content: space-between; /*one line seperated*/
+  align-items: center;
+  padding: 8px; /*gives space on all sides to all items*/
 }
+
 
 .logo {
   font-size: 48px;
@@ -15,7 +19,15 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex; /*put numbers horizontal*/
+  margin: 0;
+  padding: 0; /*moves to edges*/
+  gap: 8px; /*gave each number a gap*/
+  
 }
+
+  
+
 
 a {
   font-size: 22px;
