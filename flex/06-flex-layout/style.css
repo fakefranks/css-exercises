@@ -7,20 +7,23 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /*justify-content: space-between; had mine looking
+  the same as goal but not same solution*/
 }
 
 .content {
   display:flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  justify-content: center;
+  flex: 1; /*sent footer to bottom*/
+  
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 8px;
+  padding: 8px; /*they did 16px*/
 }
 
 .footer {
@@ -36,6 +39,9 @@ ul {
   list-style-type: none;
   padding: 8px;
   margin: 8px;
+  /*  margin: 0;
+  padding: 0;
+  gap: 16px they had this*/
 }
 
 a {
