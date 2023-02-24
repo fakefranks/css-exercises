@@ -9,6 +9,9 @@ body {
 
 .pics {
   display: flex;
+  justify-content: space-evenly;
+  gap: 52px;
+
 }
 
 img {
