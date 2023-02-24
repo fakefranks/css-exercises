@@ -5,21 +5,26 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
 }
 
 .footer {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
 }
-
-
-
 
 ul {
   display:flex;
@@ -50,4 +55,5 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+  
 }
