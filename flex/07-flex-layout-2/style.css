@@ -27,10 +27,14 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+
+
 }
 
 a {
   text-decoration: none;
+  font: 24px;
+  color: white;
 }
 
 ul {
