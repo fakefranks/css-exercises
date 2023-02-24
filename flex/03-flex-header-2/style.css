@@ -39,13 +39,14 @@ body {
 .left {
   display: flex;
   gap: 16px;
-  justify-content: center;
+  justify-content: center;/*dont need this*/
   align-items: center;
 }
 
 .right {
   display: flex;
   gap: 16px;
+  /*needs align-items: center; but it still looks right*/
 }
 button {
   border: none;
