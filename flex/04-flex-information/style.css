@@ -11,7 +11,7 @@ body {
 .pics {
   display: flex;
   gap: 52px;
-  justify-content: space-evenly;
+  justify-content: center;
   
 }
  .barberry {
