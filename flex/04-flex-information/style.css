@@ -11,9 +11,22 @@ body {
 .pics {
   display: flex;
   gap: 52px;
+  
+}
+ .barberry {
   width: 200px;
-  
-  
+ }
+
+ .chili {
+  width: 200px;
+ }
+
+ .saffron {
+  width: 200px;
+ }
+
+.pepper {
+  width: 200px;
 }
 
 img {
