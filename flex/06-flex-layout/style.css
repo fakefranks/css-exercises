@@ -24,6 +24,7 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
+  background-color: #eeeeee;
 }
 
 ul {
@@ -36,6 +37,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: grey;
 }
 
 img {
@@ -47,6 +49,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
