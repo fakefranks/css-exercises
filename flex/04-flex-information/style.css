@@ -14,6 +14,10 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+/*to make it cleaner should have done body instead of ind.
+max-width instead of just width, no flex-wrap didn't need
+to flex title, just center with body. still got the smame
+result*/
  .barberry {
   width: 200px;
   text-align: center;
