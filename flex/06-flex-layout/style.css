@@ -14,17 +14,20 @@ body {
   display:flex;
   flex-direction: column;
   align-items: center;
+  gap: 8px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 8px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   background-color: #eeeeee;
+  padding: 8px;
 }
 
 ul {
