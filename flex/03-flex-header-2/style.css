@@ -14,7 +14,7 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex; /*put everything on one line*/
   justify-content: space-between;
-  padding: 16px; /*gives space to all items inside*/
+  padding: 8px; /*gives space to all items inside*/
 
   
 }
